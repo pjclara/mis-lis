@@ -1,0 +1,7 @@
+import '/resources/js/bootstrap.js';
+
+import Alpine from '/node_modules/.vite/deps/alpinejs.js?v=4bc0e32b';
+
+window.Alpine = Alpine;
+
+Alpine.start();

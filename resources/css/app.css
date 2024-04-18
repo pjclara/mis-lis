@@ -1,0 +1,69 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.btn {
+    @apply bg-color-secondary rounded-md px-9 py-3 capitalize font-bold hover:opacity-80 ease-in duration-200 text-white;
+}
+
+.title {
+    @apply text-3xl md:text-4xl font-bold leading-snug;
+}
+
+body {
+    @apply text-black;
+}
+
+h1,h2 {
+    @apply text-3xl text-color-primary;
+    font-family: "Futura-CondensedExtraBold";
+}
+
+h3 {
+    @apply text-2xl text-white;
+    font-family: "Futura-CondensedMeidum";
+}
+
+p {
+    @apply text-lg text-black;
+    font-family: "Futura-CondensedExtraBold";
+}
+
+#title {
+    @apply text-2xl text-white;
+    font-family: "Futura-CondensedMeidum";
+}
+
+.user-text {
+    display: none;
+    font-family: Futura Condensed, sans-serif;
+}
+
+.user-text.active-text {
+    display: block;
+    animation: moveup 1s line forwards;
+}
+
+.user-pic {
+    transition: all 0.3s ease;
+}
+
+.user-pic.active-pic {
+   border: 2px solid #ff7d3b;
+}
+
+@keyframes moveup {
+    0% {
+        margin-top: 40px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: 20px;
+        opacity: 0.1;
+    }
+    100% {
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
