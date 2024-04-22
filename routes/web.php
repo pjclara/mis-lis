@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AlbumController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProfileController;
 
@@ -21,6 +22,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('/sendMail', [ContactController::class, 'sendMail'])->name('sendMail');
 
 Route::get('/program', function () {
     return view('program');

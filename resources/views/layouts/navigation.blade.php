@@ -100,6 +100,7 @@
                         </x-slot>
                     </x-dropdown>
                 @else
+                    {{-- -
                     <a href="{{ route('login') }}"
                         class="text-sm text-gray-700 underline dark:text-gray-500">{{ __('Log in') }}</a>
 
@@ -107,6 +108,7 @@
                         <a href="{{ route('register') }}"
                             class="ml-4 text-sm text-gray-700 underline dark:text-gray-500">{{ __('Register') }}</a>
                     @endif
+                    --}}
                 @endauth
             </div>
 
@@ -194,6 +196,7 @@
                     </form>
                 </div>
             @else
+                {{--
                 <div class="space-y-1">
                     <x-responsive-nav-link :href="route('login')">
                         {{ __('Login') }}
@@ -204,6 +207,7 @@
                         </x-responsive-nav-link>
                     @endif
                 </div>
+                --}}
             @endauth
         </div>
     </div>

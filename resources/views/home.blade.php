@@ -38,8 +38,11 @@
             in quibusdam perspiciatis modi tempore consequuntur, soluta sequi rem nihil id ea rerum at aliquid
             doloribus?
         </p>
-        <p class="font-extrabold text-color-secondary p-10">
+        <p class="font-extrabold text-color-secondary p-5">
             Contamos consigo em Novembro de 2024 nas MIS-LIS!
+        </p>
+        <p class="font-extrabold text-color-secondary p-5">
+            Inscrições abrem em breve!
         </p>
         @auth
             @hasRole('admin')

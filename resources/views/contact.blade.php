@@ -5,6 +5,11 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-3 lg:px-4">
+            @if (session('message'))
+                <div class="mb-4 font-medium text-black">
+                    {{ session('message') }}
+                </div>
+            @endif
             <div class="overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="text-green-900 dark:text-red-500">
                     <section id="contact" class="bg-white">
@@ -14,16 +19,16 @@
                                     Deixe a sua mensagem
                                 </h1>
                             </div>
-                            <form action="">
+                            <form action="{{route('sendMail')}}">
                                 <div class="w-full m-auto text-center md:w-2/3">
                                     <div class="text-color-primary-dark grid gap-6 mb-6 grid-cols-1">
-                                        <input type="text"
+                                        <input type="text" required
                                             class="bg-gray-50 border border-gray-300 text-sm rounded block w-full focus:ouline-none focus:border-color-secondary"
-                                            placeholder="Nome" id="name" name="name" required>
-                                        <input type="email"
+                                            placeholder="Nome" id="subject" name="subject" required>
+                                        <input type="email" required
                                             class="bg-gray-50 border border-gray-300 text-sm rounded block w-full focus:ouline-none focus:border-color-secondary"
                                             placeholder="email" id="email" name="email" required>
-                                        <textarea name="message" id="message" cols="30" rows="10"
+                                        <textarea name="body" id="body" cols="30" rows="10" required
                                             class="bg-gray-50 border border-gray-300 text-sm rounded block w-full focus:ouline-none focus:border-color-secondary"
                                             placeholder="Mensagem" required></textarea>
 
