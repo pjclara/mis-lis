@@ -21,12 +21,12 @@
                         {{ __('About us') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('program')" :active="request()->routeIs('program')">
+                        {{ __('Program') }}
+                    </x-nav-link>
+                </div>
                 @auth
-                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                        <x-nav-link :href="route('program')" :active="request()->routeIs('program')">
-                            {{ __('Program') }}
-                        </x-nav-link>
-                    </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                         <x-nav-link :href="route('speakers')" :active="request()->routeIs('speakers')">
                             {{ __('Speakers') }}

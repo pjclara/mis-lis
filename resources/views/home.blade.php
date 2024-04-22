@@ -72,7 +72,7 @@
         <span id="title" class="text-2xl font-bold">COMISSÃO ORGANIZADORA</span>
     </div>
     <div class="p-5 text-center">
-        <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-4 lg:gap-2 px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-4 lg:gap-2 px-4 sm:px-6 lg:px-8 ">
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
                 <div class=" inline-block rounded-2xl">
@@ -84,10 +84,18 @@
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
                 <div class=" inline-block rounded-2xl">
-                    <img src="{{ asset('imagens/palestrantes/nuno_rama.jpeg') }}" alt="Nuno Rama"
+                    <img src="" alt="Ana Inácio"
                         class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
                 </div>
-                <h3 class="py-4">Prof. Dr. Nuno Rama</h3>
+                <h3 class="py-4">Drª. Ana Inácio</h3>
+            </div>
+
+            <div class="text-center rounded-2xl cursor-pointer p-2">
+                <div class=" inline-block rounded-2xl">
+                    <img src="" alt="Cristina Aniceto"
+                        class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
+                </div>
+                <h3 class="py-4">Drª. Cristina Aniceto</h3>
             </div>
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
@@ -100,10 +108,10 @@
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
                 <div class=" inline-block rounded-2xl">
-                    <img src="{{ asset('imagens/palestrantes/pauloclara.jpg') }}" alt="Paulo Clara"
+                    <img src="" alt="João Nobre"
                         class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
                 </div>
-                <h3 class="py-4">Dr. Paulo Clara</h3>
+                <h3 class="py-4">Dr. João Nobre</h3>
             </div>
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
@@ -113,6 +121,23 @@
                 </div>
                 <h3 class="py-4">Drª. Maria Inês Coelho</h3>
             </div>
+
+            <div class="text-center rounded-2xl cursor-pointer p-2">
+                <div class=" inline-block rounded-2xl">
+                    <img src="{{ asset('imagens/palestrantes/nuno_rama.jpeg') }}" alt="Nuno Rama"
+                        class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
+                </div>
+                <h3 class="py-4">Prof. Dr. Nuno Rama</h3>
+            </div>
+
+            <div class="text-center rounded-2xl cursor-pointer p-2">
+                <div class=" inline-block rounded-2xl">
+                    <img src="{{ asset('imagens/palestrantes/pauloclara.jpg') }}" alt="Paulo Clara"
+                        class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
+                </div>
+                <h3 class="py-4">Dr. Paulo Clara</h3>
+            </div>
+
         </div>
     </div>
     <div class="bg-color-primary-dark p-5 text-center">
