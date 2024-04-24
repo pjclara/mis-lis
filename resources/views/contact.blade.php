@@ -16,7 +16,7 @@
                         <div class="container py-5">
                             <div class="text-center m-auto mb-5 md:w-1/2">
                                 <h1 class="title">
-                                    Deixe a sua mensagem
+                                    {{__('Deixe a sua mensagem')}}
                                 </h1>
                             </div>
                             <form action="{{route('sendMail')}}">

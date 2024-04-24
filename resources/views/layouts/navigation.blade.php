@@ -100,6 +100,8 @@
                         </x-slot>
                     </x-dropdown>
                 @else
+                    @include('components.language_switcher')
+
                     {{-- -
                     <a href="{{ route('login') }}"
                         class="text-sm text-gray-700 underline dark:text-gray-500">{{ __('Log in') }}</a>
@@ -174,7 +176,6 @@
         </div>
 
         <div class="pt-4 pb-1 border-t border-gray-200">
-
             @auth
                 <div class="px-4">
                     <div class="text-base font-medium text-gray-800">{{ Auth::user()->name }}</div>

@@ -18,6 +18,18 @@ use App\Http\Controllers\ProfileController;
 |
 */
 
+Route::get('language/{locale}', function ($locale) {
+    app()->setLocale($locale);
+    session()->put('locale', $locale);
+    return redirect()->back();
+});
+
+//welcome page
+Route::get('/welcome', function () {
+    return view('welcome');
+})->name('welcome');
+
+
 Route::get('/', function () {
     return view('home');
 })->name('home');

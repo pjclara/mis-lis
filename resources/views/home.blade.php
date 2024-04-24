@@ -22,11 +22,9 @@
     </div>
     <div class="p-10  text-center">
         <p class="mb-5">
-            As
-            <span class="text-color-secondary font-bold">Jornadas de Cirurgia Minimamente Invasiva e Inovação de
-                Leiria</span>
-            são um evento organizado pelo serviço de
-            cirurgia de Leiria, nos auditórios do <b>Instituto Politécnico de Leiria</b>.
+            {{__('As')}}
+            <span class="text-color-secondary font-bold">{{ __('Jornadas de Cirurgia Minimamente Invasiva E Inovação de Leiria') }}</span>
+            {{__('são um evento organizado pelo serviço de cirurgia de Leiria, nos auditórios do')}} <b>Instituto Politécnico de Leiria</b>.
         </p>
         <p class="mb-5">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis similique nemo quae laboriosam quasi,
@@ -39,10 +37,10 @@
             doloribus?
         </p>
         <p class="font-extrabold text-color-secondary p-5">
-            Contamos consigo em Novembro de 2024 nas MIS-LIS!
+            {{__('Contamos consigo em Novembro de 2024 nas MIS-LIS')}}!
         </p>
         <p class="font-extrabold text-color-secondary p-5">
-            Inscrições abrem em breve!
+            {{__('Inscrições abrem em breve')}}!
         </p>
         @auth
             @hasRole('admin')
@@ -51,7 +49,7 @@
         @endauth
     </div>
     <div class="bg-color-primary-dark p-5 text-center">
-        <span id="title" class="text-2xl font-bold">LOCAL DO EVENTO</span>
+        <span id="title" class="text-2xl font-bold">{{__('Local do evento')}}</span>
     </div>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-2 px-4 sm:px-6 lg:px-8">
         <div class="m-2">
@@ -69,7 +67,7 @@
         </div>
     </div>
     <div class="bg-color-primary-dark p-5 text-center">
-        <span id="title" class="text-2xl font-bold">COMISSÃO ORGANIZADORA</span>
+        <span id="title" class="text-2xl font-bold">{{__('Comissão organizadora')}}</span>
     </div>
     <div class="p-5 text-center">
         <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-4 lg:gap-2 px-4 sm:px-6 lg:px-8 ">
@@ -140,7 +138,7 @@
         </div>
     </div>
     <div class="bg-color-primary-dark p-5 text-center">
-        <span id="title" class="text-2xl font-bold">APOIO CIENTÍFICO</span>
+        <span id="title" class="text-2xl font-bold">{{__('Apoio científico')}}</span>
     </div>
     <div class="bg-cor-primaria-clara p-5 flex justify-around">
         <div>
@@ -151,7 +149,7 @@
         </div>
     </div>
     <div class="bg-color-primary-dark p-5 text-center">
-        <span id="title" class="text-2xl font-bold">Patrocinadores</span>
+        <span id="title" class="text-2xl font-bold">{{__('Patrocinadores')}}</span>
     </div>
     <div class="bg-cor-primaria-clara p-5 flex justify-around">
 

@@ -52,7 +52,7 @@
                                         parte dos concelhos de Alcobaça, Ourém e Soure.
                                     </p>
                                     <p class="leading-relaxed">
-                                        <span><a class="text-red-800"
+                                        <span><a class="font-bold underline"
                                                 href="https://www.sns.gov.pt/entidades-de-saude/unidade-local-de-saude-da-regiao-de-leiria/"
                                                 target="blank">Aqui</a> tem mais informações sobre a ULS de
                                             Leiria.</span>
@@ -64,12 +64,9 @@
                                     <h1 class="title mb-4">
                                         <span>Cidade de leiria</span>
                                     </h1>
-                                    <p class="leading-relaxed">Entre o Castelo e o rio Lis nasceu e cresceu
-                                        Leiria.</p>
+                                    <p class="leading-relaxed">{{__('Entre o Castelo e o rio Lis nasceu e cresceu Leiria.')}}</p>
                                     <p class="leading-relaxed">
-                                        Enamorada por dois rios, o Lis e o Lena, banhando-se nas areias douradas do
-                                        Atlântico, povoada de belas matas, a cidade de Leiria propicia a quem a visita
-                                        locais inesquecíveis e de raro encanto.</p>
+                                        {{__('Enamorada por dois rios, o Lis e o Lena, banhando-se nas areias douradas do Atlântico, povoada de belas matas, a cidade de Leiria propicia a quem a visita locais inesquecíveis e de raro encanto.')}}</p>
                                     <p class="leading-relaxed mb-10">
                                         Capital de distrito e localizada no centro litoral do país, a atração pelo
                                         concelho de Leiria está à vista: rios, praia, pinhal, lagoas, salinas, abrigos
@@ -77,7 +74,7 @@
                                         medievais, museus, termas, tradições populares nas suas manifestações mais
                                         puras, artesanato e muita, muita e rica gastronomia.</p>
                                     <p class="leading-relaxed">
-                                        <a class="text-red-700" href="https://www.visiteleiria.pt/"
+                                        <a class="font-bold underline" href="https://www.visiteleiria.pt/"
                                             target="blank">Aqui</a> pode encontrar sugestões de alguns dos locais mais
                                         turísticos de Leiria!
                                     </p>

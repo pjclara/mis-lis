@@ -95,6 +95,12 @@ return [
 
     'fallback_locale' => 'pt_pt',
 
+
+    'available_locales' => [
+        'inglatera' => 'en',
+        'portugal' => 'pt_pt'
+      ],
+
     /*
     |--------------------------------------------------------------------------
     | Faker Locale
