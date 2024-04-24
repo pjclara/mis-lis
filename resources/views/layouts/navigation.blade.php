@@ -147,17 +147,18 @@
                     {{ __('Program') }}
                 </x-responsive-nav-link>
             </div>
-            <div class="mt-3 space-y-1">
-                <x-responsive-nav-link :href="route('speakers')">
-                    {{ __('Speakers') }}
-                </x-responsive-nav-link>
-            </div>
-            <div class="mt-3 space-y-1">
-                <x-responsive-nav-link :href="route('enrollment')">
-                    {{ __('Enrollment') }}
-                </x-responsive-nav-link>
-            </div>
             @auth
+
+                <div class="mt-3 space-y-1">
+                    <x-responsive-nav-link :href="route('speakers')">
+                        {{ __('Speakers') }}
+                    </x-responsive-nav-link>
+                </div>
+                <div class="mt-3 space-y-1">
+                    <x-responsive-nav-link :href="route('enrollment')">
+                        {{ __('Enrollment') }}
+                    </x-responsive-nav-link>
+                </div>
                 <div class="mt-3 space-y-1">
                     <x-responsive-nav-link :href="route('albums.index')">
                         {{ __('Album') }}

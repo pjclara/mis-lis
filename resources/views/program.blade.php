@@ -36,7 +36,8 @@
                                             Sala de operações inteligente em 2024
                                         </p>
                                     </div>
-                                    <div class="text-center mb-10">
+
+                                    <div class="text-center mb-10 font-bold">
                                         <div
                                             class="relative bg-color-secondary inline-block px-5 py-3 rounded-lg hover:bg-color-secondary ease-in duration-200">
                                             <p class="text-6xl">2</p>
@@ -55,24 +56,21 @@
                                             Proctologia: EPSiT vs Colposacropexia
                                         </p>
                                     </div>
-                                    <div class="text-center">
+                                    <div class="text-center font-bold">
                                         <div
                                             class="relative bg-color-secondary inline-block px-5 py-3 rounded-lg hover:bg-color-secondary ease-in duration-200">
                                             <p class="text-6xl">3</p>
                                         </div>
                                         <h3 class="text-xl font-bold py-4">Partilha de experiências</h3>
                                         <p class="leading-relaxed">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente sunt
-                                            provident
-                                            tenetur?
-                                            Amet, quibusdam! Placeat
+                                            Entre as apresentações e as cirurgias, haverá espaço para partilha de experiências
                                         </p>
 
                                     </div>
                                 </div>
                             </div>
                             <div class=" flex items-center justify-center p-10">
-                                <img id="programImage" src="{{ asset('imagens/logo/cartaz.png') }}" alt="Programa"
+                                <img id="programImage" src="{{ asset('imagens/logo/cartaz_final.png') }}" alt="Programa"
                                     height="50">
                             </div>
                         </div>
@@ -83,13 +81,11 @@
         <script>
             // Array of image URLs
             var images = [
-                "{{ asset('imagens/logo/cartaz.png') }}",
                 "{{ asset('imagens/logo/programaD1.png') }}",
                 "{{ asset('imagens/logo/programaD2.png') }}",
+                "{{ asset('imagens/logo/cartaz_final.png') }}",
             ];
             var currentIndex = 0;
-            var interval = 3000;
-
             // Function to change the image
             function changeImage() {
                 // Update the src attribute of the image

@@ -73,7 +73,6 @@
     </div>
     <div class="p-5 text-center">
         <div class="grid lg:grid-cols-5 md:grid-cols-2 gap-4 lg:gap-2 px-4 sm:px-6 lg:px-8 ">
-
             <div class="text-center rounded-2xl cursor-pointer p-2">
                 <div class=" inline-block rounded-2xl">
                     <img src="{{ asset('imagens/palestrantes/miguel_coelho.jpeg') }}" alt="Miguel Coelho"
@@ -92,7 +91,7 @@
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
                 <div class=" inline-block rounded-2xl">
-                    <img src="" alt="Cristina Aniceto"
+                    <img src="{{ asset('imagens/palestrantes/cristina.jpg') }}" alt="Cristina Aniceto"
                         class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
                 </div>
                 <h3 class="py-4">Drª. Cristina Aniceto</h3>
@@ -108,7 +107,7 @@
 
             <div class="text-center rounded-2xl cursor-pointer p-2">
                 <div class=" inline-block rounded-2xl">
-                    <img src="" alt="João Nobre"
+                    <img src="{{ asset('imagens/palestrantes/nobre.jpg') }}" alt="João Nobre"
                         class="rounded-full p-1 m-3 h-20 cursor-pointer user-pic">
                 </div>
                 <h3 class="py-4">Dr. João Nobre</h3>
